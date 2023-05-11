@@ -14,6 +14,7 @@
 
 number_of_tickets = int(input("Укажите количество билетов: "))
 ages = []
+
 for i in range(0, number_of_tickets):
     age = int(input("Укажите возраст посетителя: "))
     ages.append(age)
